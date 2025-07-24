@@ -1,0 +1,121 @@
+/* IMPOSTAZIONI GENERALI */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-repeat: repeat;
+  background-size: contain;
+  background-position: top left;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background-image: url(../img/sfondo.png);
+  background-repeat: repeat ;
+  line-height: 20px;
+}
+
+ul.menu-custom {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+ul.menu-custom li {
+  color: white;
+  font-weight: bold;
+  margin: 10px 0;
+  position: relative;
+}
+
+ul.menu-custom li::before {
+  content: "⇒ ";
+  color: white;
+}
+
+ul.menu-custom li::after {
+  content: " ⇐";
+  color: white;
+}
+
+.title {
+  color: white;
+  text-align: center;
+  margin: 20px 0;
+}
+/* HEADER */
+.header {
+  background: linear-gradient(90deg, rgba(42, 123, 155, 1) 0%, rgba(37, 116, 148, 1) 50%, rgba(5, 93, 128, 1) 100%);
+  text-align: center;
+  padding: 20px 0;
+  color: white;
+  font-weight: bold;
+  margin: 25px 25px 25px 25px;
+  box-shadow: 4px 4px 10px rgba(100, 100, 100, 0.5);
+}
+
+.logo {
+  display: block;
+  margin: 0 auto 15px auto;
+  max-width: 150px; /* regola a piacere */
+  height: auto;
+}
+/* MAIN */
+main {
+  margin: 25px 25px 25px 25px;
+  background-color: white;
+  padding: 25px 25px 25px 25px;
+}
+
+.article-title{
+  padding: 25px 0;
+  font-size: 2rem;
+}
+
+.author{
+  color: grey;
+  margin-bottom: 25px;
+}
+
+.p-1{
+  margin-bottom: 25px;
+}
+
+.yt-video{
+  width: 100%;
+  border-radius: 25px;
+}
+
+.video-container{
+  margin: auto;
+  width: 90%;
+}
+
+.article{
+  background-color: lightgrey;
+  border: solid 1px darkgray;
+  text-align: left;
+  margin: 15px;
+}
+/* ELEMENTI NEL MAIN - ARTICLE */
+
+/* TABELLE */
+
+/* FORM */
+
+/* ELEMENTI NELL' ASIDE */
+
+/* FOOTER */
+.footer{
+  background: linear-gradient(90deg, rgba(42, 123, 155, 1) 0%, rgba(37, 116, 148, 1) 50%, rgba(5, 93, 128, 1) 100%);
+  margin: 25px;
+  padding: 25px;
+  color: white;
+  text-align: center;
+}
+
+.blog{
+  padding: 0;
+  margin-bottom: 25px;
+}
